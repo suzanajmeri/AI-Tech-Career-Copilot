@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI TECH CAREER COPILOT</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav-inner">
+      <div class="brand">
+        <div class="logo-circle">TP</div>
+        <div class="brand-text">AI TECH CAREER COPILOT</div>
+      </div>
+      <nav class="nav-links">
+        <a class="nav-btn" href="/">Home</a>
+        <a class="nav-btn" href="/recommender">Recommender</a>
+        <a class="nav-btn" href="/explorer">Explorer</a>
+        <a class="nav-btn" href="/roadmap">Roadmap</a>
+        <a class="nav-btn" href="/chat">Chatbot</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="footer">
+    <div class="container">© TechPilot AI • AI TECH CAREER COPILOT</div>
+  </footer>
+
+  <script src="/static/main.js"></script>
+</body>
+</html>

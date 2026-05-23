@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="panel container">
+  <h2>Skill Explorer</h2>
+  <div class="controls">
+    <input id="explorerInput" placeholder="Type a skill (python, react, ai)" />
+    <button class="btn" onclick="exploreSkill()">Explore</button>
+  </div>
+  <div id="explorerResult" class="result-grid"></div>
+</section>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="panel container">
+  <h2>TechPilot Chatbot</h2>
+  <div id="chatBox" class="chat-container"></div>
+
+  <div class="chat-controls">
+    <input id="userMessage" placeholder="Try: 'career for python', 'roadmap for ai engineer', or 'explore sql'" />
+    <button class="btn" onclick="sendMessage()">Send</button>
+    <button class="btn outline" id="voiceToggleBtn" onclick="toggleVoice()">Voice: Off</button>
+  </div>
+</section>
+{% endblock %}

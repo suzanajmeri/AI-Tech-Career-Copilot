@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="panel container">
+  <h2>Career Roadmap</h2>
+  <div class="controls">
+    <input id="careerInput" placeholder="Enter career (AI Engineer, Data Scientist)" />
+    <button class="btn" onclick="getRoadmap()">Generate Roadmap</button>
+  </div>
+  <div id="roadmapBox" class="timeline-grid"></div>
+</section>
+{% endblock %}
